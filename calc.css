@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: #efeff2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background: #0c0d0f;
+    overflow: hidden;
+}
+form input{
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #fff;
+    background-color: black;
+    text-align: right;
+    pointer-events: none;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+button{
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 0 0 21%;
+    margin: 5px 0;
+    border: 1px solid black;
+}
+.btn-yellow{
+    background-color: #ff8800;
+    color: #fff;
+}
+.btn-yellow:hover{
+    background-color: #f0a248;
+}
+.btn-grey{
+    background-color: #f4f4f4;
+}
+.btn-grey:hover{
+    background-color: #e7d9d9;
+}
+.btn-equal{
+    background-color: green;
+}
+.btn-equal:hover{
+    background-color: rgb(32, 204, 32);
+}
+.btn-clear{
+    background-color: red;
+}
+.btn-clear:hover{
+    background-color: rgb(235, 35, 35);
+}
